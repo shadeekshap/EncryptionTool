@@ -20,15 +20,15 @@ def decrypt_caesar(encrypted_text, shift):
     return encrypt_caesar(encrypted_text, -shift)  # Decrypt by shifting in the opposite direction
 
 # Example usage
-text = "Hello World!"
-shift_value = 3
-encrypted = encrypt_caesar(text, shift_value)
-print(f"Encrypted: {encrypted}")
-decrypted = decrypt_caesar(encrypted, shift_value)
-print(f"Decrypted: {decrypted}")
+# text = "Hello World!"
+# shift_value = 3
+# encrypted = encrypt_caesar(text, shift_value)
+# print(f"Encrypted: {encrypted}")
+# decrypted = decrypt_caesar(encrypted, shift_value)
+# print(f"Decrypted: {decrypted}")
 
 def main():
-    choice = input("Do you want to (E)ncrypt or (D)ecrypt? ").strip().lower()
+    choice = input("Do you want to (e)ncrypt or (d)ecrypt? ").strip().lower()
     text = input("Enter the text: ")
 
     if choice == 'e':
